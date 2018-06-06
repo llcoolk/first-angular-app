@@ -1,0 +1,32 @@
+
+
+<body>
+    <form (ngSubmit)="onSubmit()">
+  <div>
+      <label for="name">Name:</label>
+      <input type="text" placeholder="name" name="name" required [(ngModel)]="name">
+  </div>
+  <div>
+      <label for="email">Email:</label>
+      <input type="email" placeholder="email" name="email" email required [(ngModel)]="email">
+  </div>
+  <div>
+        <label for="phoneNumber">Phone:</label>
+        <input type="phoneNumber" placeholder="999-999-9999" name="phoneNumber" phoneNumber required [(ngModel)]="phoneNumber">
+    </div>
+
+
+  <div>
+      <label for="subject">Subject:</label>
+      <input type="text" placeholder="subject" name="subject" required [(ngModel)]="subject">
+  </div>
+  <div>
+      <label for="message">Message:</label>
+      <textarea type="text" placeholder="message" name="message" required [(ngModel)]="message"></textarea>
+  </div>
+  <div>
+      <button type="submit">Submit</button>
+  </div>
+  </form>
+</body>
+

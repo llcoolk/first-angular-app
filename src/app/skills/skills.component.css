@@ -1,0 +1,7 @@
+h3 {
+    color: rgb(38, 47, 100);
+}
+li {
+    list-style-position: inside;
+    text-align: center;
+}
